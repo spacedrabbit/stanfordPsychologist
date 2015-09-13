@@ -91,6 +91,9 @@
                                         <exclude reference="iY6-xf-H7e"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="nothing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ANg-fS-chM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -119,10 +122,13 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Psychologist" id="oF2-4F-mdC"/>
+                    <connections>
+                        <segue destination="82r-sE-gYT" kind="showDetail" identifier="nothing" id="Dzl-DM-xaK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1320" y="377"/>
+            <point key="canvasLocation" x="582" y="1119"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="kGZ-bC-Abg">
@@ -170,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHU-wB-txn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1320" y="1326"/>
+            <point key="canvasLocation" x="1422" y="2050"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="b9a-5J-GgU">
@@ -206,10 +212,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZU-e3-RkI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="1326"/>
+            <point key="canvasLocation" x="582" y="2050"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="y3j-C5-Fhh"/>
+        <segue reference="Dzl-DM-xaK"/>
     </inferredMetricsTieBreakers>
 </document>
